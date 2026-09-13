@@ -1,0 +1,25 @@
+{
+  "date": "2026-09-13",
+  "scope": "Station 3 Square Lashing",
+  "unit_tests": {"passed": 14, "total": 14},
+  "production_build": "passed",
+  "preview_http_status": 200,
+  "independent_source_review": "no blocking findings",
+  "independent_geometry_review": {
+    "sample_count": 20008,
+    "continuous_seams": 7,
+    "minimum_nonlocal_strand_distance": 0.065561,
+    "rope_diameter": 0.06,
+    "minimum_upright_axis_distance": 0.297552,
+    "minimum_crossbar_axis_distance": 0.297447,
+    "required_axis_distance": 0.29,
+    "both_clove_hitch_crossings": "verified",
+    "frapping_route": "around wrapping bundle between spars"
+  },
+  "browser_qa_performed_this_pass": false,
+  "limitations": [
+    "Static illustrated strand routing; no rope-force or structural-strength simulation.",
+    "No qualified instructor assessment or physical-phone testing.",
+    "Earlier browser artifacts describe the preceding two-station release."
+  ]
+}

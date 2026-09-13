@@ -1,0 +1,198 @@
+{
+  "checks": [
+    {
+      "check": "3D camp renders",
+      "passed": true
+    },
+    {
+      "check": "Desktop has no horizontal overflow",
+      "passed": true
+    },
+    {
+      "check": "Keyboard moves the actual avatar",
+      "passed": true
+    },
+    {
+      "check": "E opens the nearby rope station",
+      "passed": true
+    },
+    {
+      "check": "Entering a lesson pauses world movement",
+      "passed": true
+    },
+    {
+      "check": "World position is held during lesson",
+      "passed": true
+    },
+    {
+      "check": "Play advances, pause holds the timeline",
+      "passed": true
+    },
+    {
+      "check": "Step 2 is reachable",
+      "passed": true
+    },
+    {
+      "check": "Step 3 is reachable",
+      "passed": true
+    },
+    {
+      "check": "Step 4 is reachable",
+      "passed": true
+    },
+    {
+      "check": "Step 5 is reachable",
+      "passed": true
+    },
+    {
+      "check": "Sources can be opened over the lesson",
+      "passed": true
+    },
+    {
+      "check": "Closing sources preserves lesson",
+      "passed": true
+    },
+    {
+      "check": "Wrong answer gives feedback without completion",
+      "passed": true
+    },
+    {
+      "check": "Correct answer completes the activity",
+      "passed": true
+    },
+    {
+      "check": "Return restores the same camp position",
+      "passed": true
+    },
+    {
+      "check": "Return resumes movement",
+      "passed": true
+    },
+    {
+      "check": "Completion raises the world pennant",
+      "passed": true
+    },
+    {
+      "check": "Activity persists across reload",
+      "passed": true
+    },
+    {
+      "check": "Old completed lesson now shows one of two activities",
+      "passed": true
+    },
+    {
+      "check": "Shelter offers its own complete lesson",
+      "passed": true
+    },
+    {
+      "check": "Shelter walk-to position remains inside the interaction zone",
+      "passed": true
+    },
+    {
+      "check": "Shelter opens a distinct six-step lesson",
+      "passed": true
+    },
+    {
+      "check": "Shelter title and timer match the selected content",
+      "passed": true
+    },
+    {
+      "check": "Shelter playback advances independently",
+      "passed": true
+    },
+    {
+      "check": "Shelter uses its own source references",
+      "passed": true
+    },
+    {
+      "check": "Shelter step 2 is reachable",
+      "passed": true
+    },
+    {
+      "check": "Shelter step 3 is reachable",
+      "passed": true
+    },
+    {
+      "check": "Shelter step 4 is reachable",
+      "passed": true
+    },
+    {
+      "check": "Shelter step 5 is reachable",
+      "passed": true
+    },
+    {
+      "check": "Shelter step 6 is reachable",
+      "passed": true
+    },
+    {
+      "check": "Wrong shelter answer does not award another activity",
+      "passed": true
+    },
+    {
+      "check": "Shelter completion preserves the rope yard",
+      "passed": true
+    },
+    {
+      "check": "Shelter return restores the same location",
+      "passed": true
+    },
+    {
+      "check": "Shelter completion reveals its practice guyline",
+      "passed": true
+    },
+    {
+      "check": "Both activities persist across reload",
+      "passed": true
+    },
+    {
+      "check": "Journal tracks both lessons separately",
+      "passed": true
+    },
+    {
+      "check": "Revisiting Clove Hitch restores its five-step content",
+      "passed": true
+    },
+    {
+      "check": "Only station 3 remains a preview",
+      "passed": true
+    },
+    {
+      "check": "Dialogs close with Escape",
+      "passed": true
+    },
+    {
+      "check": "No JavaScript runtime errors",
+      "passed": true
+    },
+    {
+      "check": "390px layout has no horizontal overflow",
+      "passed": true
+    },
+    {
+      "check": "Mobile can open and close the lesson directly",
+      "passed": true
+    },
+    {
+      "check": "320px layout has no horizontal overflow",
+      "passed": true
+    },
+    {
+      "check": "Release-one saved progress survives the new version",
+      "passed": true
+    }
+  ],
+  "passed": 45,
+  "total": 45,
+  "errors": [],
+  "environment": {
+    "browser": "Installed Microsoft Edge, headless",
+    "gpu": "ANGLE (Qualcomm, Qualcomm(R) Adreno(TM) X1-45 GPU (0x37314430) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "load_seconds_including_network_idle": 7.33,
+    "sampled_fps": 60,
+    "viewport": "1440x960"
+  },
+  "limitations": [
+    "Synthetic browser checks; not tested on physical phones.",
+    "Rope path illustration, not a physical tightening simulation or instructor certification."
+  ]
+}

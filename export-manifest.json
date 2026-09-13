@@ -1,0 +1,260 @@
+{
+  "formatVersion": 1,
+  "baselineHEAD": "035f1a04bd79201fa4ed56fea2fe591275947c1c",
+  "source": "PioneerLab 3D standalone tracked-source export",
+  "copyMethod": "Each retained tracked file read from git show at baseline HEAD; no .git history included.",
+  "payloadFileCount": 26,
+  "payloadBytes": 161730,
+  "fileInventoryScope": "All package files except export-manifest.json itself.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 53,
+      "sha256": "13b0b8b0facaeddc45b75484e5eeafaaafad5d8459b7c31130efb19a0e84d4ac",
+      "baselineIdentical": true
+    },
+    {
+      "path": "artifacts/edge-verification.json",
+      "bytes": 707,
+      "sha256": "241e6c20d0634e15c0ba411ea06bacb18bec588a1f67ece31ff2d0c00195b771",
+      "baselineIdentical": true
+    },
+    {
+      "path": "artifacts/export-verification.json",
+      "bytes": 2835,
+      "sha256": "800d41f90298eafaab34e0acefd56267cfb73497ac2562f83dfe43e1a74d4ffa",
+      "baselineIdentical": null
+    },
+    {
+      "path": "artifacts/station3-verification.json",
+      "bytes": 940,
+      "sha256": "7cf40c9d217b441556fcad3c703169b31c79311cf254a7d97f93a2e023e1889d",
+      "baselineIdentical": true
+    },
+    {
+      "path": "artifacts/verification.json",
+      "bytes": 4524,
+      "sha256": "854bad43262089a0d51d041a464faedee605a155645548ae3b5a466bdd229f0d",
+      "baselineIdentical": true
+    },
+    {
+      "path": "docs/BUILD-PLAN.md",
+      "bytes": 3118,
+      "sha256": "e21ff308b8fbc26c680228e884153fd90ee818fb3df4bc4d08df67c86cec2412",
+      "baselineIdentical": false
+    },
+    {
+      "path": "FEEDBACK.md",
+      "bytes": 6847,
+      "sha256": "7ea86131aa90e9014f77ff11e281b98afd39cae755975f0664c1fa9212d3c146",
+      "baselineIdentical": true
+    },
+    {
+      "path": "index.html",
+      "bytes": 780,
+      "sha256": "55bc0bb657467a2ca03bd887c5f934661af90b6f714bae09f899fc52644eb203",
+      "baselineIdentical": true
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 25669,
+      "sha256": "71e9f3281b8c381c2e10a1a4e86f47b5a8e636a61293c7d003ad44e8579ba22b",
+      "baselineIdentical": true
+    },
+    {
+      "path": "package.json",
+      "bytes": 362,
+      "sha256": "46302e6d99baa95aadde75cba25a8cee9327c02a538d578d9e7e48dced145ca2",
+      "baselineIdentical": true
+    },
+    {
+      "path": "README.md",
+      "bytes": 5535,
+      "sha256": "c1e346033e67e68d6622064334ac6629f2dbe8c32d36a4dddfc1d47853e3b06b",
+      "baselineIdentical": false
+    },
+    {
+      "path": "scripts/verify-edges.py",
+      "bytes": 3635,
+      "sha256": "d19e202a0fab394bfc58bdc38039069c3cc338125b38674ae5626ae16aa9d954",
+      "baselineIdentical": true
+    },
+    {
+      "path": "scripts/verify.py",
+      "bytes": 13337,
+      "sha256": "d4d6dc383cb77976440c0a8f2f7fd4f6680f6d9c87845933e2ac1f79da7729d4",
+      "baselineIdentical": true
+    },
+    {
+      "path": "src/content.js",
+      "bytes": 12826,
+      "sha256": "bcf720f40f96f85fb77d4860f55fabb5d0934319292cac975feebc1786877378",
+      "baselineIdentical": true
+    },
+    {
+      "path": "src/lesson.js",
+      "bytes": 7782,
+      "sha256": "1f310b38945c8635309f4d5da963c87270a382c49874c1cb31c31a5f2747d1df",
+      "baselineIdentical": true
+    },
+    {
+      "path": "src/main.js",
+      "bytes": 20552,
+      "sha256": "318d1c341ca602fc8662f753acab3a54395de2b2f6f32e85920fe2396627cc79",
+      "baselineIdentical": true
+    },
+    {
+      "path": "src/rope-path.js",
+      "bytes": 957,
+      "sha256": "f3a165fafadd0a5333b83a32b7310893f165a08f812c25aa58a6350549965d4a",
+      "baselineIdentical": true
+    },
+    {
+      "path": "src/shelter-rope-path.js",
+      "bytes": 1084,
+      "sha256": "314d2dde0871e2d317c70ddf1bd30d1499be049bc0b85b3570a6a6229820d1c8",
+      "baselineIdentical": true
+    },
+    {
+      "path": "src/square-lashing-path.js",
+      "bytes": 2358,
+      "sha256": "adc209a3c1fbc44a6efa5568dccd5879bd9fce59159303f171650b2ca0eb016d",
+      "baselineIdentical": true
+    },
+    {
+      "path": "src/state.js",
+      "bytes": 1326,
+      "sha256": "737811d4ffc5f1772e54b3e7b5922da4e943e2217c356baaf225c49fa49fa8c2",
+      "baselineIdentical": true
+    },
+    {
+      "path": "src/style.css",
+      "bytes": 17831,
+      "sha256": "758ad0012df98e408e0640a550206403399310c8967da6537eca56b2605bb6f5",
+      "baselineIdentical": true
+    },
+    {
+      "path": "src/world.js",
+      "bytes": 21054,
+      "sha256": "b26e8ba26d2a4b9ff02e1298dc68b5f348dbab39160ca703858c187a747306a2",
+      "baselineIdentical": true
+    },
+    {
+      "path": "tests/rope-path.test.js",
+      "bytes": 1321,
+      "sha256": "79f94f640dddf7f7ba7c85abfec5c8ee61de983ada81f2d3ed4e2ee32bc1fe82",
+      "baselineIdentical": true
+    },
+    {
+      "path": "tests/shelter-rope-path.test.js",
+      "bytes": 1285,
+      "sha256": "8dc27cea6a0b70a0a51acbf133a22d13a6c7e27bceceffcf87c211e1e42d9110",
+      "baselineIdentical": true
+    },
+    {
+      "path": "tests/square-lashing-path.test.js",
+      "bytes": 1603,
+      "sha256": "45c83d7544baff314965b313376f887b3b8a75d1c5998e0c848ab70b7710f63d",
+      "baselineIdentical": true
+    },
+    {
+      "path": "tests/state.test.js",
+      "bytes": 3409,
+      "sha256": "8452b63a99e5c22597c7ab15505ba33ef8f0053f2d9d93e97ad4a626d6745d4f",
+      "baselineIdentical": true
+    }
+  ],
+  "excludedTrackedFiles": [
+    {
+      "path": ".openai/hosting.json",
+      "reason": "Private hosting metadata"
+    },
+    {
+      "path": "artifacts/camp-desktop.png",
+      "reason": "Historical browser screenshot; JSON evidence retained"
+    },
+    {
+      "path": "artifacts/camp-mobile.png",
+      "reason": "Historical browser screenshot; JSON evidence retained"
+    },
+    {
+      "path": "artifacts/lesson-desktop.png",
+      "reason": "Historical browser screenshot; JSON evidence retained"
+    },
+    {
+      "path": "artifacts/lesson-mobile.png",
+      "reason": "Historical browser screenshot; JSON evidence retained"
+    },
+    {
+      "path": "artifacts/lesson-side.png",
+      "reason": "Historical browser screenshot; JSON evidence retained"
+    },
+    {
+      "path": "artifacts/shelter-completed-camp.png",
+      "reason": "Historical browser screenshot; JSON evidence retained"
+    },
+    {
+      "path": "artifacts/shelter-lesson-desktop.png",
+      "reason": "Historical browser screenshot; JSON evidence retained"
+    },
+    {
+      "path": "artifacts/shelter-lesson-mobile.png",
+      "reason": "Historical browser screenshot; JSON evidence retained"
+    },
+    {
+      "path": "artifacts/shelter-lesson-side.png",
+      "reason": "Historical browser screenshot; JSON evidence retained"
+    }
+  ],
+  "excludedUntrackedClasses": [
+    ".git/ history and repository configuration",
+    "node_modules/ dependencies",
+    "dist/ generated build",
+    ".env and credential files",
+    "local capture video and browser profiles",
+    "workspace-only orchestration and product notes"
+  ],
+  "documentationChanges": {
+    "README.md": "Standalone concept, usable local docs and evidence links; removed absent parent-wiki and screenshot links.",
+    "docs/BUILD-PLAN.md": "Self-contained architecture, current three-station scope and development history; removed private deployment/workspace references."
+  },
+  "sourceScan": {
+    "status": "passed",
+    "scope": "All UTF-8 exported payload files",
+    "checks": [
+      "private-key",
+      "known-token",
+      "assigned-secret",
+      "local-user-path",
+      "internal-link"
+    ],
+    "findings": [],
+    "brokenMarkdownLinks": [],
+    "externalDomains": [
+      "127.0.0.1",
+      "filestore.scouting.org",
+      "fonts.googleapis.com",
+      "github.com",
+      "opencollective.com",
+      "prod-cms.scouts.org.uk",
+      "registry.npmjs.org",
+      "rolldown.rs",
+      "tidelift.com",
+      "www.scouts.org.uk",
+      "www.w3.org"
+    ],
+    "notes": [
+      "Loopback 127.0.0.1 links are local preview instructions, not private hosted links.",
+      "Public npm registries, dependency funding links, Google Fonts and Scouting references are retained.",
+      "This is a targeted source scan and manual review, not a guarantee against every possible secret format."
+    ]
+  },
+  "verification": {
+    "unitTests": "14/14 passed in export",
+    "productionBuild": "passed in export; >500 kB bundle-size warning only",
+    "dependencyInstall": "offline npm ci succeeded using existing cache",
+    "details": "artifacts/export-verification.json",
+    "browserChecks": "Not rerun during this packaging task; historical evidence retained and labelled."
+  },
+  "originalCheckoutModified": false
+}

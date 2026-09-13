@@ -1,0 +1,15 @@
+{
+  "lesson entry focuses return control": true,
+  "next step preserves control focus": true,
+  "short viewport can reach overflow": true,
+  "shelter lesson entry focuses return control": true,
+  "shelter next step preserves control focus": true,
+  "open shelter lesson shrinks without horizontal overflow": true,
+  "shelter completion alone leaves rope yard unfinished": true,
+  "shelter success focuses its heading": true,
+  "shelter marker alone leaves rope pennant down": true,
+  "journal station replacement retains modal focus": true,
+  "journal replacement preserves original opener": true,
+  "mobile quiz review retains visible focus": true,
+  "mobile completed review retains visible focus": true
+}

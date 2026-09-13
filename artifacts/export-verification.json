@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-13",
+  "scope": "Standalone source export",
+  "baselineHEAD": "035f1a04bd79201fa4ed56fea2fe591275947c1c",
+  "node": "v24.21.0",
+  "npm": "11.19.0",
+  "dependencyInstall": {
+    "command": "npm ci --offline --ignore-scripts --no-audit --no-fund",
+    "exitCode": 0,
+    "packageCount": 16
+  },
+  "unitTests": {
+    "command": "npm test",
+    "exitCode": 0,
+    "passed": 14,
+    "total": 14,
+    "output": "\n> pioneerlab-3d@0.1.0 test\n> node --test tests/*.test.js\n\n✔ the teaching strand clears the spar and cannot pass through itself (20.5391ms)\n✔ the diagonal visibly crosses over the standing strand in the front view (5.4391ms)\n✔ the shelter lesson follows one continuous rope through all six stages (1.7706ms)\n✔ the shelter rope clears the anchor and its own nonadjacent strands (28.495ms)\n✔ the rack lashing is one continuous finite strand through eight stages (3.9258ms)\n✔ the lashing clears both touching spars and nonadjacent rope strands (97.0434ms)\n✔ corrupt and unrelated saved data do not award a completed activity (2.8084ms)\n✔ completion persists once, keeps discovery, and rejects station IDs as activity IDs (0.2655ms)\n✔ existing Clove Hitch progress survives adding a separate shelter activity (0.1388ms)\n✔ shelter can be completed first, without completing the rope yard (0.1043ms)\n✔ existing two-lesson saves retain both completions when the rack is added (1.3234ms)\n✔ the rack can be completed first and repeated without awarding another lesson (0.1137ms)\n✔ timeline clamps invalid values and handles the final frame (0.2096ms)\n✔ movement stops at a solid obstacle, slides alongside it, and respects the camp boundary (0.1767ms)\nℹ tests 14\nℹ suites 0\nℹ pass 14\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 373.6459\n"
+  },
+  "productionBuild": {
+    "command": "npm run build",
+    "exitCode": 0,
+    "output": "\n> pioneerlab-3d@0.1.0 build\n> vite build\n\nvite v8.3.0 building client environment for production...\ntransforming...\n✓ 15 modules transformed.\nrendering chunks...\ncomputing gzip size...\ndist/index.html                   0.87 kB │ gzip:   0.55 kB\ndist/assets/index-Dpyymluv.css   17.78 kB │ gzip:   4.62 kB\ndist/assets/index-DNtj22h8.js   628.43 kB │ gzip: 163.60 kB\n\n✓ built in 872ms\n[plugin builtin:vite-reporter] \n(!) Some chunks are larger than 500 kB after minification. Consider:\n- Using dynamic import() to code-split the application\n- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting\n- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.\n",
+    "warning": "Vite reported the JavaScript bundle exceeds 500 kB; build passed."
+  },
+  "browserRegressionRerun": false
+}
